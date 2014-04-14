@@ -1,9 +1,15 @@
+<head><link rel="stylesheet" type="text/css" href="new.css"></head>
+
 <h1>Create a new car listing</h1>
+<body>
 <%= simple_form_for @car_listing do |f| %>
-  <%= f.input :color %>
-  <%= f.input :year, collection: CarListing::YEARS %>
-  <%= f.input :mileage %>
-  <%= f.input :description %>
-  <%= f.association :manufacturer, label_method: :name %>
-  <%= f.submit %>
+  <ul>
+    <li><%= f.input :color %></li>
+    <li><%= f.input :year, collection: CarListing::YEARS %></li>
+    <li><%= f.input :mileage %></li>
+   <li> <%= f.input :description %></li>
+    <li><%= f.association :manufacturer, label_method: :name %></li>
+    <%= f.submit %>
+  </ul>
+</body>
 <% end %>

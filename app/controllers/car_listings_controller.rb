@@ -1,5 +1,9 @@
 class CarListingsController < ApplicationController
 
+  def index
+    @car_listings = CarListing.all
+  end
+
   def new
     @car_listing = CarListing.new
   end

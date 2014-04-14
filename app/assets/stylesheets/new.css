@@ -1,0 +1,15 @@
+h1 {
+  font-family:"Futura";
+  text-align:center;
+}
+
+body {
+  text-align:center;
+}
+
+ul {
+  list-style-type: none;
+  font-family:"Futura";
+  font-size:16px;
+  color:#000000;
+}

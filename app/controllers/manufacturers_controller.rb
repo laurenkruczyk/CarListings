@@ -1,5 +1,9 @@
 class ManufacturersController < ApplicationController
 
+  def index
+    @manufacturers = Manufacturer.all
+  end
+
   def new
     @manufacturer = Manufacturer.new
   end

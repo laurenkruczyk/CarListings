@@ -1,6 +1,12 @@
+<head><link rel="stylesheet" type="text/css" href="new.css"></head>
+
 <h1>Create a manufacturer</h1>
+<body>
 <%= simple_form_for @manufacturer do |f| %>
-  <%= f.input :name %>
-  <%= f.input :country, as: :select, collection:country_dropdown %>
-  <%= f.submit %>
+  <ul>
+    <li><%= f.input :name %></li>
+    <li><%= f.input :country, as: :select, collection:country_dropdown %></li>
+    <li><%= f.submit %></li>
+  </ul>
+<body>
 <% end %>

@@ -1,0 +1,31 @@
+body {
+  background-color:#D8D8D8;
+  border-style:solid;
+  border-width:15px;
+  border-color:#200772;
+}
+
+div {
+  text-align:center;
+}
+
+ul {
+  list-style-type: none;
+  font-family:"Futura";
+  font-size:26px;
+  color:#200772;
+}
+
+p {
+  text-align:center;
+  list-style-type: none;
+  font-family:"Futura";
+  font-weight:bold;
+  font-stretch:expanded;
+  font-size:36px;
+  color:#200772;
+}
+
+
+
+
