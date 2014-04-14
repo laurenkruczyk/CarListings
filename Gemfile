@@ -20,6 +20,7 @@ gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 
+gem 'country-select'
 gem 'foundation-rails'
 gem 'simple_form'
 

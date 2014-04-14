@@ -1,0 +1,6 @@
+<h1>Create a manufacturer</h1>
+<%= simple_form_for @manufacturer do |f| %>
+  <%= f.input :name %>
+  <%= f.input :country, as: :select, collection:country_dropdown %>
+  <%= f.submit %>
+<% end %>
