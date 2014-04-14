@@ -22,7 +22,7 @@ So that I can list it in my lot
     select '1997', from: 'Year'
     fill_in 'Mileage', with: '120000'
 
-    click_on 'Create Car Listing'
+    click_on 'Create Car listing'
     expect(page).to have_content('Successfully created car listing')
     expect(current_path).to eql(new_car_listing_path)
   end
