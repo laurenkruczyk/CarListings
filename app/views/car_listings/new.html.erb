@@ -1,0 +1,9 @@
+<h1>Create a new car listing</h1>
+<%= simple_form_for @car_listing do |f| %>
+  <%= f.input :color %>
+  <%= f.input :year, collection: CarListing::YEARS %>
+  <%= f.input :mileage %>
+  <%= f.input :description %>
+  <%= f.association :manufacturer, label_method: :name %>
+  <%= f.submit %>
+<% end %>
