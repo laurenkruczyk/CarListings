@@ -18,5 +18,7 @@ feature 'associating a car listing with a manufacturer' do
     click_on 'Create Car listing'
 
     expect(page).to have_content('Successfully created car listing')
+    expect(CarListing.last.manufacturer).to eql(manufacturer)
+    expect(manufacturer.car_listings).to include(CarListing.last)
   end
 end
