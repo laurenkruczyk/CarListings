@@ -1,7 +1,7 @@
-== README
 
+Launch Academy
 
-LAUNCH ACADEMY SYSTEMS CHECK EXERCISE TO DEMONSTRATE TDD AND ASSOCIATIONS
+Testing, associations, validations
 
 
 This README would normally document whatever steps are necessary to get the
