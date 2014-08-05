@@ -1,0 +1,19 @@
+<head><link rel="stylesheet" type="text/css" href="cars.css"></head>
+
+<p>CAR LISTINGS</p>
+
+<% @car_listings.each do |car_listing| %>
+  <body>
+    <div>
+      <ul>
+        <li> Color: <%= car_listing.color %></li>
+        <li> Year: <%= car_listing.year %></li>
+        <li> Mileage: <%= car_listing.mileage %></li>
+        <li> Description: <%= car_listing.description %></li>
+        <li> Manufacturer: <%= car_listing.manufacturer.name%></li>
+      </ul>
+    <p>----------------------------------------------------------------------</p>
+    </div>
+  </body>
+
+<% end %>

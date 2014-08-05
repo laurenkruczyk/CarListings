@@ -1,0 +1,15 @@
+<head><link rel="stylesheet" type="text/css" href="cars.css"></head>
+
+<% @manufacturers.each do |manufacturer| %>
+<body>
+  <div>
+    <ul>
+      <li> <%= manufacturer.name %>
+      : <%= manufacturer.country %>
+      </li>
+    </ul>
+  </div>
+</body>
+
+<% end %>
+
