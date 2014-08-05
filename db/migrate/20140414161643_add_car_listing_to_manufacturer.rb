@@ -4,3 +4,4 @@ class AddCarListingToManufacturer < ActiveRecord::Migration
     add_index :car_listings, :manufacturer_id
   end
 end
+

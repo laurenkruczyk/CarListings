@@ -6,3 +6,4 @@ FactoryGirl.define do
     manufacturer
   end
 end
+

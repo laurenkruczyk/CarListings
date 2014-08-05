@@ -26,3 +26,4 @@ end
     params.require(:manufacturer).permit(:name, :country)
   end
 end
+

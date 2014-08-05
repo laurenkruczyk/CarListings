@@ -4,3 +4,4 @@ FactoryGirl.define do
     country 'United States'
   end
 end
+

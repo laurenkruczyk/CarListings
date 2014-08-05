@@ -6,3 +6,4 @@ class CarListing < ActiveRecord::Base
   validates :year, presence: true, inclusion: {in: YEARS}
   validates :mileage, presence: true
 end 
+

@@ -27,3 +27,4 @@ So that I can list it in my lot
     expect(current_path).to eql(new_car_listing_path)
   end
 end
+

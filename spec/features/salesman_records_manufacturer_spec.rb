@@ -22,3 +22,4 @@ So that I can keep track of the types of cars found in the lot
     expect(current_path).to eql(new_manufacturer_path)
   end
 end
+

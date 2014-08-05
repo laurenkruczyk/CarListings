@@ -7,3 +7,4 @@ class CreateManufacturers < ActiveRecord::Migration
     end
   end
 end
+
