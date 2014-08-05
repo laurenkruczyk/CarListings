@@ -21,8 +21,6 @@ feature 'associating a car listing with a manufacturer' do
     expect(CarListing.last.manufacturer).to eql(manufacturer)
     expect(manufacturer.car_listings).to include(CarListing.last)
   end
-<<<<<<< HEAD
 end
-=======
-end
->>>>>>> e415f4d3de39e42453ccfc3862d2bb77ea4978d9
+
+

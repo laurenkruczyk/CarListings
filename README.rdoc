@@ -1,13 +1,9 @@
 == README
 
-<<<<<<< HEAD
-=======
+
 LAUNCH ACADEMY SYSTEMS CHECK EXERCISE TO DEMONSTRATE TDD AND ASSOCIATIONS
 
 
-
-
->>>>>>> e415f4d3de39e42453ccfc3862d2bb77ea4978d9
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
